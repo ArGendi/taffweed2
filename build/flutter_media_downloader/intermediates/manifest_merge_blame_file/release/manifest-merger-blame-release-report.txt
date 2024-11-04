@@ -1,0 +1,36 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.flutter_media_downloader.flutter_media_downloader" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="16"
+6-->C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="16" />
+7-->C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.INTERNET" />
+9-->C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml:3:5-67
+9-->C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml:3:22-64
+10
+11    <application>
+11-->C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml:4:5-15:19
+12        <provider
+12-->C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml:5:9-13:20
+13            android:name="androidx.core.content.FileProvider"
+13-->C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml:6:13-62
+14            android:authorities="${applicationId}.provider"
+14-->C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml:7:13-60
+15            android:exported="false"
+15-->C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml:8:13-37
+16            android:grantUriPermissions="true" >
+16-->C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml:9:13-47
+17            <meta-data
+17-->C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml:10:13-12:58
+18                android:name="android.support.FILE_PROVIDER_PATHS"
+18-->C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml:11:17-67
+19                android:resource="@xml/provider_paths" />
+19-->C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml:12:17-55
+20        </provider>
+21    </application>
+22
+23</manifest>

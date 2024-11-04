@@ -1,0 +1,658 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.taffweed.taffweed"
+4    android:versionCode="12"
+5    android:versionName="1.1.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:2:5-66
+11-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:2:22-64
+12    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+12-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:3:5-80
+12-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:3:22-78
+13    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+13-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:4:5-79
+13-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:4:22-76
+14    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+14-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:5:5-80
+14-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:5:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:6:5-79
+15-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:6:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:7:5-80
+16-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:7:22-78
+17    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+17-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:8:5-77
+17-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:8:22-74
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-68
+18-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-65
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-79
+19-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-76
+20
+21    <queries>
+21-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-13:15
+22        <intent>
+22-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-12:18
+23            <action android:name="android.support.customtabs.action.CustomTabsService" />
+23-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-90
+23-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:11:21-87
+24        </intent>
+25    </queries>
+26
+27    <uses-permission android:name="android.permission.VIBRATE" />
+27-->[:flutter_local_notifications] D:\taffweed3\taffweed\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-66
+27-->[:flutter_local_notifications] D:\taffweed3\taffweed\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-63
+28    <uses-permission android:name="android.permission.NFC" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+28-->[com.myfatoorah:myfatoorah:3.0.0] C:\Users\mabed\.gradle\caches\transforms-3\74c9b039ed2777fd5e8511acbefff0db\transformed\jetified-myfatoorah-3.0.0\AndroidManifest.xml:7:5-62
+28-->[com.myfatoorah:myfatoorah:3.0.0] C:\Users\mabed\.gradle\caches\transforms-3\74c9b039ed2777fd5e8511acbefff0db\transformed\jetified-myfatoorah-3.0.0\AndroidManifest.xml:7:22-59
+29    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+29-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\mabed\.gradle\caches\transforms-3\dd2f685478f229a4d6bf8f42315c7775\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:26:5-82
+29-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\mabed\.gradle\caches\transforms-3\dd2f685478f229a4d6bf8f42315c7775\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:26:22-79
+30
+31    <permission
+31-->[androidx.core:core:1.13.1] C:\Users\mabed\.gradle\caches\transforms-3\19a1d8e2cc95837dd4717824ae465ade\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+32        android:name="com.taffweed.taffweed.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+32-->[androidx.core:core:1.13.1] C:\Users\mabed\.gradle\caches\transforms-3\19a1d8e2cc95837dd4717824ae465ade\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+33        android:protectionLevel="signature" />
+33-->[androidx.core:core:1.13.1] C:\Users\mabed\.gradle\caches\transforms-3\19a1d8e2cc95837dd4717824ae465ade\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+34
+35    <uses-permission android:name="com.taffweed.taffweed.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+35-->[androidx.core:core:1.13.1] C:\Users\mabed\.gradle\caches\transforms-3\19a1d8e2cc95837dd4717824ae465ade\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+35-->[androidx.core:core:1.13.1] C:\Users\mabed\.gradle\caches\transforms-3\19a1d8e2cc95837dd4717824ae465ade\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+36
+37    <application
+38        android:name="android.app.Application"
+38-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:11:9-42
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.13.1] C:\Users\mabed\.gradle\caches\transforms-3\19a1d8e2cc95837dd4717824ae465ade\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+40        android:icon="@mipmap/ic_launcher"
+40-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:12:9-43
+41        android:label="taffweed"
+41-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:10:9-33
+42        android:supportsRtl="true"
+42-->[com.myfatoorah:myfatoorah:3.0.0] C:\Users\mabed\.gradle\caches\transforms-3\74c9b039ed2777fd5e8511acbefff0db\transformed\jetified-myfatoorah-3.0.0\AndroidManifest.xml:10:9-35
+43        android:theme="@style/AppTheme"
+43-->[com.myfatoorah:myfatoorah:3.0.0] C:\Users\mabed\.gradle\caches\transforms-3\74c9b039ed2777fd5e8511acbefff0db\transformed\jetified-myfatoorah-3.0.0\AndroidManifest.xml:11:9-40
+44        android:usesCleartextTraffic="true" >
+44-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:13:9-44
+45        <provider
+46            android:name="androidx.core.content.FileProvider"
+46-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:15:13-62
+47            android:authorities="com.taffweed.taffweed.provider"
+47-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:16:13-60
+48            android:exported="false"
+48-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:17:13-37
+49            android:grantUriPermissions="true" >
+49-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:18:13-47
+50            <meta-data
+50-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:19:13-21:58
+51                android:name="android.support.FILE_PROVIDER_PATHS"
+51-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:20:17-67
+52                android:resource="@xml/provider_paths" />
+52-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:21:17-55
+53        </provider>
+54
+55        <receiver
+55-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:23:9-125
+56            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+56-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:23:44-122
+57            android:exported="false" />
+57-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:23:19-43
+58        <receiver
+58-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:24:9-131
+59            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+59-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:24:44-128
+60            android:exported="false" />
+60-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:24:19-43
+61        <receiver
+61-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:25:9-32:20
+62            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+62-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:25:44-132
+63            android:exported="false" >
+63-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:25:19-43
+64            <intent-filter>
+64-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:26:13-31:29
+65                <action android:name="android.intent.action.BOOT_COMPLETED" />
+65-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:27:17-78
+65-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:27:25-76
+66                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+66-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:28:17-83
+66-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:28:25-81
+67                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+67-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:29:17-82
+67-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:29:25-79
+68                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+68-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:30:17-81
+68-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:30:25-79
+69            </intent-filter>
+70        </receiver>
+71
+72        <activity
+72-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:33:9-55:20
+73            android:name="com.taffweed.taffweed.MainActivity"
+73-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:34:13-41
+74            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+74-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:40:13-163
+75            android:exported="true"
+75-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:35:13-36
+76            android:hardwareAccelerated="true"
+76-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:41:13-47
+77            android:launchMode="singleTop"
+77-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:38:13-43
+78            android:showWhenLocked="true"
+78-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:36:13-42
+79            android:theme="@style/LaunchTheme"
+79-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:39:13-47
+80            android:turnScreenOn="true"
+80-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:37:13-40
+81            android:windowSoftInputMode="adjustResize" >
+81-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:42:13-55
+82
+83            <!--
+84                 Specifies an Android theme to apply to this Activity as soon as
+85                 the Android process has started. This theme is visible to the user
+86                 while the Flutter UI initializes. After that, this theme continues
+87                 to determine the Window background behind the Flutter UI.
+88            -->
+89            <meta-data
+89-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:47:13-50:17
+90                android:name="io.flutter.embedding.android.NormalTheme"
+90-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:48:15-70
+91                android:resource="@style/NormalTheme" />
+91-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:49:15-52
+92
+93            <intent-filter>
+93-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:51:13-54:29
+94                <action android:name="android.intent.action.MAIN" />
+94-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:52:17-68
+94-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:52:25-66
+95
+96                <category android:name="android.intent.category.LAUNCHER" />
+96-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:53:17-76
+96-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:53:27-74
+97            </intent-filter>
+98        </activity>
+99        <!--
+100             Don't delete the meta-data below.
+101             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+102        -->
+103        <meta-data
+103-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:58:9-60:33
+104            android:name="flutterEmbedding"
+104-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:59:13-44
+105            android:value="2" />
+105-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:60:13-30
+106        <meta-data
+106-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:61:9-63:55
+107            android:name="com.google.firebase.messaging.default_notification_channel_id"
+107-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:62:13-89
+108            android:value="high_importance_channel" />
+108-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:63:13-52
+109
+110        <service
+110-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-19:72
+111            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+111-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-107
+112            android:exported="false"
+112-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-37
+113            android:permission="android.permission.BIND_JOB_SERVICE" />
+113-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-69
+114        <service
+114-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:20:9-26:19
+115            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+115-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-97
+116            android:exported="false" >
+116-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-37
+117            <intent-filter>
+117-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-25:29
+118                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+118-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:24:17-78
+118-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:24:25-75
+119            </intent-filter>
+120        </service>
+121
+122        <receiver
+122-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:28:9-35:20
+123            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+123-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:29:13-98
+124            android:exported="true"
+124-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-36
+125            android:permission="com.google.android.c2dm.permission.SEND" >
+125-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:31:13-73
+126            <intent-filter>
+126-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-34:29
+127                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+127-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:33:17-81
+127-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:33:25-78
+128            </intent-filter>
+129        </receiver>
+130
+131        <service
+131-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:37:9-41:19
+132            android:name="com.google.firebase.components.ComponentDiscoveryService"
+132-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:37:18-89
+133            android:directBootAware="true"
+133-->[com.google.firebase:firebase-common:20.4.3] C:\Users\mabed\.gradle\caches\transforms-3\dea47638a8e91a56194e8eef58b919a3\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:32:13-43
+134            android:exported="false" >
+134-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\mabed\.gradle\caches\transforms-3\dd2f685478f229a4d6bf8f42315c7775\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:56:13-37
+135            <meta-data
+135-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-40:85
+136                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+136-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:39:17-128
+137                android:value="com.google.firebase.components.ComponentRegistrar" />
+137-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:40:17-82
+138            <meta-data
+138-->[:firebase_core] D:\taffweed3\taffweed\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+139                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+139-->[:firebase_core] D:\taffweed3\taffweed\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+140                android:value="com.google.firebase.components.ComponentRegistrar" />
+140-->[:firebase_core] D:\taffweed3\taffweed\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+141            <meta-data
+141-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\mabed\.gradle\caches\transforms-3\dd2f685478f229a4d6bf8f42315c7775\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:57:13-59:85
+142                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+142-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\mabed\.gradle\caches\transforms-3\dd2f685478f229a4d6bf8f42315c7775\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:58:17-122
+143                android:value="com.google.firebase.components.ComponentRegistrar" />
+143-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\mabed\.gradle\caches\transforms-3\dd2f685478f229a4d6bf8f42315c7775\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:59:17-82
+144            <meta-data
+144-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\mabed\.gradle\caches\transforms-3\dd2f685478f229a4d6bf8f42315c7775\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:60:13-62:85
+145                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+145-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\mabed\.gradle\caches\transforms-3\dd2f685478f229a4d6bf8f42315c7775\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:61:17-119
+146                android:value="com.google.firebase.components.ComponentRegistrar" />
+146-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\mabed\.gradle\caches\transforms-3\dd2f685478f229a4d6bf8f42315c7775\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:62:17-82
+147            <meta-data
+147-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\mabed\.gradle\caches\transforms-3\4745e6dab46ef96131ab4a3f74a59b74\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+148                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+148-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\mabed\.gradle\caches\transforms-3\4745e6dab46ef96131ab4a3f74a59b74\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+149                android:value="com.google.firebase.components.ComponentRegistrar" />
+149-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\mabed\.gradle\caches\transforms-3\4745e6dab46ef96131ab4a3f74a59b74\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+150            <meta-data
+150-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\mabed\.gradle\caches\transforms-3\4745e6dab46ef96131ab4a3f74a59b74\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+151                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+151-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\mabed\.gradle\caches\transforms-3\4745e6dab46ef96131ab4a3f74a59b74\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+152                android:value="com.google.firebase.components.ComponentRegistrar" />
+152-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\mabed\.gradle\caches\transforms-3\4745e6dab46ef96131ab4a3f74a59b74\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+153            <meta-data
+153-->[com.google.firebase:firebase-common-ktx:20.4.3] C:\Users\mabed\.gradle\caches\transforms-3\adfa080ac873f49dade7f313144ccfda\transformed\jetified-firebase-common-ktx-20.4.3\AndroidManifest.xml:12:13-14:85
+154                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+154-->[com.google.firebase:firebase-common-ktx:20.4.3] C:\Users\mabed\.gradle\caches\transforms-3\adfa080ac873f49dade7f313144ccfda\transformed\jetified-firebase-common-ktx-20.4.3\AndroidManifest.xml:13:17-116
+155                android:value="com.google.firebase.components.ComponentRegistrar" />
+155-->[com.google.firebase:firebase-common-ktx:20.4.3] C:\Users\mabed\.gradle\caches\transforms-3\adfa080ac873f49dade7f313144ccfda\transformed\jetified-firebase-common-ktx-20.4.3\AndroidManifest.xml:14:17-82
+156            <meta-data
+156-->[com.google.firebase:firebase-common:20.4.3] C:\Users\mabed\.gradle\caches\transforms-3\dea47638a8e91a56194e8eef58b919a3\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:35:13-37:85
+157                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+157-->[com.google.firebase:firebase-common:20.4.3] C:\Users\mabed\.gradle\caches\transforms-3\dea47638a8e91a56194e8eef58b919a3\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:36:17-109
+158                android:value="com.google.firebase.components.ComponentRegistrar" />
+158-->[com.google.firebase:firebase-common:20.4.3] C:\Users\mabed\.gradle\caches\transforms-3\dea47638a8e91a56194e8eef58b919a3\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:37:17-82
+159            <meta-data
+159-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\mabed\.gradle\caches\transforms-3\1d5e99a0ec3233cea46b9d4bb2b0d279\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+160                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+160-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\mabed\.gradle\caches\transforms-3\1d5e99a0ec3233cea46b9d4bb2b0d279\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+161                android:value="com.google.firebase.components.ComponentRegistrar" />
+161-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\mabed\.gradle\caches\transforms-3\1d5e99a0ec3233cea46b9d4bb2b0d279\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+162        </service>
+163
+164        <provider
+164-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:43:9-47:38
+165            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+165-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:44:13-102
+166            android:authorities="com.taffweed.taffweed.flutterfirebasemessaginginitprovider"
+166-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:45:13-88
+167            android:exported="false"
+167-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-37
+168            android:initOrder="99" />
+168-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-35
+169
+170        <activity
+170-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-20:47
+171            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+171-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-104
+172            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+172-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-137
+173            android:exported="false"
+173-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-37
+174            android:theme="@style/AppTheme" />
+174-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-44
+175        <activity
+175-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-24:55
+176            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+176-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-112
+177            android:exported="false"
+177-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-37
+178            android:theme="@style/ThemeTransparent" />
+178-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-52
+179        <activity
+179-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:25:9-28:55
+180            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+180-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-106
+181            android:exported="false"
+181-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-37
+182            android:theme="@style/ThemeTransparent" />
+182-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:28:13-52
+183        <activity
+183-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:29:9-33:55
+184            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+184-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-126
+185            android:exported="false"
+185-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:31:13-37
+186            android:launchMode="singleInstance"
+186-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-48
+187            android:theme="@style/ThemeTransparent" />
+187-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:33:13-52
+188        <activity
+188-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:34:9-38:55
+189            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+189-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:35:13-120
+190            android:exported="false"
+190-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:36:13-37
+191            android:launchMode="singleInstance"
+191-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:37:13-48
+192            android:theme="@style/ThemeTransparent" />
+192-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-52
+193
+194        <receiver
+194-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:40:9-43:40
+195            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+195-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:41:13-111
+196            android:enabled="true"
+196-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:42:13-35
+197            android:exported="false" />
+197-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:43:13-37
+198
+199        <meta-data
+199-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:45:9-47:36
+200            android:name="io.flutter.embedded_views_preview"
+200-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-61
+201            android:value="true" />
+201-->[:flutter_inappwebview] D:\taffweed3\taffweed\build\flutter_inappwebview\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-33
+202
+203        <provider
+203-->[:image_picker_android] D:\taffweed3\taffweed\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:9-19:20
+204            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+204-->[:image_picker_android] D:\taffweed3\taffweed\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-82
+205            android:authorities="com.taffweed.taffweed.flutter.image_provider"
+205-->[:image_picker_android] D:\taffweed3\taffweed\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-74
+206            android:exported="false"
+206-->[:image_picker_android] D:\taffweed3\taffweed\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-37
+207            android:grantUriPermissions="true" >
+207-->[:image_picker_android] D:\taffweed3\taffweed\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-47
+208            <meta-data
+208-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:19:13-21:58
+209                android:name="android.support.FILE_PROVIDER_PATHS"
+209-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:20:17-67
+210                android:resource="@xml/flutter_image_picker_file_paths" />
+210-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:21:17-55
+211        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+212        <service
+212-->[:image_picker_android] D:\taffweed3\taffweed\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-33:19
+213            android:name="com.google.android.gms.metadata.ModuleDependencies"
+213-->[:image_picker_android] D:\taffweed3\taffweed\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-78
+214            android:enabled="false"
+214-->[:image_picker_android] D:\taffweed3\taffweed\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-36
+215            android:exported="false" >
+215-->[:image_picker_android] D:\taffweed3\taffweed\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-37
+216            <intent-filter>
+216-->[:image_picker_android] D:\taffweed3\taffweed\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-28:29
+217                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+217-->[:image_picker_android] D:\taffweed3\taffweed\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:27:17-94
+217-->[:image_picker_android] D:\taffweed3\taffweed\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:27:25-91
+218            </intent-filter>
+219
+220            <meta-data
+220-->[:image_picker_android] D:\taffweed3\taffweed\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-32:36
+221                android:name="photopicker_activity:0:required"
+221-->[:image_picker_android] D:\taffweed3\taffweed\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:31:17-63
+222                android:value="" />
+222-->[:image_picker_android] D:\taffweed3\taffweed\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:32:17-33
+223        </service>
+224        <!--
+225           Declares a provider which allows us to store files to share in
+226           '.../caches/share_plus' and grant the receiving action access
+227        -->
+228        <provider
+228-->[:share_plus] D:\taffweed3\taffweed\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-23:20
+229            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+229-->[:share_plus] D:\taffweed3\taffweed\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-77
+230            android:authorities="com.taffweed.taffweed.flutter.share_provider"
+230-->[:share_plus] D:\taffweed3\taffweed\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-74
+231            android:exported="false"
+231-->[:share_plus] D:\taffweed3\taffweed\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-37
+232            android:grantUriPermissions="true" >
+232-->[:share_plus] D:\taffweed3\taffweed\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-47
+233            <meta-data
+233-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:19:13-21:58
+234                android:name="android.support.FILE_PROVIDER_PATHS"
+234-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:20:17-67
+235                android:resource="@xml/flutter_share_file_paths" />
+235-->D:\taffweed3\taffweed\android\app\src\main\AndroidManifest.xml:21:17-55
+236        </provider>
+237        <!--
+238           This manifest declared broadcast receiver allows us to use an explicit
+239           Intent when creating a PendingItent to be informed of the user's choice
+240        -->
+241        <receiver
+241-->[:share_plus] D:\taffweed3\taffweed\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:28:9-34:20
+242            android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent"
+242-->[:share_plus] D:\taffweed3\taffweed\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:29:13-82
+243            android:exported="false" >
+243-->[:share_plus] D:\taffweed3\taffweed\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-37
+244            <intent-filter>
+244-->[:share_plus] D:\taffweed3\taffweed\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:31:13-33:29
+245                <action android:name="EXTRA_CHOSEN_COMPONENT" />
+245-->[:share_plus] D:\taffweed3\taffweed\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:32:17-65
+245-->[:share_plus] D:\taffweed3\taffweed\build\share_plus\intermediates\merged_manifest\release\AndroidManifest.xml:32:25-62
+246            </intent-filter>
+247        </receiver>
+248
+249        <activity
+249-->[:url_launcher_android] D:\taffweed3\taffweed\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
+250            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+250-->[:url_launcher_android] D:\taffweed3\taffweed\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+251            android:exported="false"
+251-->[:url_launcher_android] D:\taffweed3\taffweed\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+252            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+252-->[:url_launcher_android] D:\taffweed3\taffweed\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
+253        <activity android:name="com.myfatoorah.sdk.views.MFSDKMainActivity" />
+253-->[com.myfatoorah:myfatoorah:3.0.0] C:\Users\mabed\.gradle\caches\transforms-3\74c9b039ed2777fd5e8511acbefff0db\transformed\jetified-myfatoorah-3.0.0\AndroidManifest.xml:12:9-79
+253-->[com.myfatoorah:myfatoorah:3.0.0] C:\Users\mabed\.gradle\caches\transforms-3\74c9b039ed2777fd5e8511acbefff0db\transformed\jetified-myfatoorah-3.0.0\AndroidManifest.xml:12:19-76
+254
+255        <receiver
+255-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\mabed\.gradle\caches\transforms-3\dd2f685478f229a4d6bf8f42315c7775\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:29:9-40:20
+256            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+256-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\mabed\.gradle\caches\transforms-3\dd2f685478f229a4d6bf8f42315c7775\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:30:13-78
+257            android:exported="true"
+257-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\mabed\.gradle\caches\transforms-3\dd2f685478f229a4d6bf8f42315c7775\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:31:13-36
+258            android:permission="com.google.android.c2dm.permission.SEND" >
+258-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\mabed\.gradle\caches\transforms-3\dd2f685478f229a4d6bf8f42315c7775\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:32:13-73
+259            <intent-filter>
+259-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-34:29
+260                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+260-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:33:17-81
+260-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:33:25-78
+261            </intent-filter>
+262
+263            <meta-data
+263-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\mabed\.gradle\caches\transforms-3\dd2f685478f229a4d6bf8f42315c7775\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:37:13-39:40
+264                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+264-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\mabed\.gradle\caches\transforms-3\dd2f685478f229a4d6bf8f42315c7775\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:38:17-92
+265                android:value="true" />
+265-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\mabed\.gradle\caches\transforms-3\dd2f685478f229a4d6bf8f42315c7775\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:39:17-37
+266        </receiver>
+267        <!--
+268             FirebaseMessagingService performs security checks at runtime,
+269             but set to not exported to explicitly avoid allowing another app to call it.
+270        -->
+271        <service
+271-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\mabed\.gradle\caches\transforms-3\dd2f685478f229a4d6bf8f42315c7775\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:46:9-53:19
+272            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+272-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\mabed\.gradle\caches\transforms-3\dd2f685478f229a4d6bf8f42315c7775\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:47:13-82
+273            android:directBootAware="true"
+273-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\mabed\.gradle\caches\transforms-3\dd2f685478f229a4d6bf8f42315c7775\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:48:13-43
+274            android:exported="false" >
+274-->[com.google.firebase:firebase-messaging:23.4.1] C:\Users\mabed\.gradle\caches\transforms-3\dd2f685478f229a4d6bf8f42315c7775\transformed\jetified-firebase-messaging-23.4.1\AndroidManifest.xml:49:13-37
+275            <intent-filter android:priority="-500" >
+275-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-25:29
+276                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+276-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:24:17-78
+276-->[:firebase_messaging] D:\taffweed3\taffweed\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:24:25-75
+277            </intent-filter>
+278        </service>
+279
+280        <provider
+280-->[com.google.firebase:firebase-common:20.4.3] C:\Users\mabed\.gradle\caches\transforms-3\dea47638a8e91a56194e8eef58b919a3\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:23:9-28:39
+281            android:name="com.google.firebase.provider.FirebaseInitProvider"
+281-->[com.google.firebase:firebase-common:20.4.3] C:\Users\mabed\.gradle\caches\transforms-3\dea47638a8e91a56194e8eef58b919a3\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:24:13-77
+282            android:authorities="com.taffweed.taffweed.firebaseinitprovider"
+282-->[com.google.firebase:firebase-common:20.4.3] C:\Users\mabed\.gradle\caches\transforms-3\dea47638a8e91a56194e8eef58b919a3\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:25:13-72
+283            android:directBootAware="true"
+283-->[com.google.firebase:firebase-common:20.4.3] C:\Users\mabed\.gradle\caches\transforms-3\dea47638a8e91a56194e8eef58b919a3\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:26:13-43
+284            android:exported="false"
+284-->[com.google.firebase:firebase-common:20.4.3] C:\Users\mabed\.gradle\caches\transforms-3\dea47638a8e91a56194e8eef58b919a3\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:27:13-37
+285            android:initOrder="100" />
+285-->[com.google.firebase:firebase-common:20.4.3] C:\Users\mabed\.gradle\caches\transforms-3\dea47638a8e91a56194e8eef58b919a3\transformed\jetified-firebase-common-20.4.3\AndroidManifest.xml:28:13-36
+286
+287        <uses-library
+287-->[androidx.window:window:1.0.0] C:\Users\mabed\.gradle\caches\transforms-3\00161724701394af88d0d487c1279526\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+288            android:name="androidx.window.extensions"
+288-->[androidx.window:window:1.0.0] C:\Users\mabed\.gradle\caches\transforms-3\00161724701394af88d0d487c1279526\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+289            android:required="false" />
+289-->[androidx.window:window:1.0.0] C:\Users\mabed\.gradle\caches\transforms-3\00161724701394af88d0d487c1279526\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+290        <uses-library
+290-->[androidx.window:window:1.0.0] C:\Users\mabed\.gradle\caches\transforms-3\00161724701394af88d0d487c1279526\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+291            android:name="androidx.window.sidecar"
+291-->[androidx.window:window:1.0.0] C:\Users\mabed\.gradle\caches\transforms-3\00161724701394af88d0d487c1279526\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+292            android:required="false" />
+292-->[androidx.window:window:1.0.0] C:\Users\mabed\.gradle\caches\transforms-3\00161724701394af88d0d487c1279526\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+293
+294        <activity
+294-->[com.google.android.gms:play-services-base:18.2.0] C:\Users\mabed\.gradle\caches\transforms-3\74b06f2fb43b6bd3a1caaeb308bb87e4\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:20:9-22:45
+295            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+295-->[com.google.android.gms:play-services-base:18.2.0] C:\Users\mabed\.gradle\caches\transforms-3\74b06f2fb43b6bd3a1caaeb308bb87e4\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:20:19-85
+296            android:exported="false"
+296-->[com.google.android.gms:play-services-base:18.2.0] C:\Users\mabed\.gradle\caches\transforms-3\74b06f2fb43b6bd3a1caaeb308bb87e4\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:22:19-43
+297            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+297-->[com.google.android.gms:play-services-base:18.2.0] C:\Users\mabed\.gradle\caches\transforms-3\74b06f2fb43b6bd3a1caaeb308bb87e4\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:21:19-78
+298
+299        <meta-data
+299-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\mabed\.gradle\caches\transforms-3\5e5b23d98466971ab663fbddaad5fc2a\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+300            android:name="com.google.android.gms.version"
+300-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\mabed\.gradle\caches\transforms-3\5e5b23d98466971ab663fbddaad5fc2a\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+301            android:value="@integer/google_play_services_version" />
+301-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\mabed\.gradle\caches\transforms-3\5e5b23d98466971ab663fbddaad5fc2a\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+302
+303        <provider
+303-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mabed\.gradle\caches\transforms-3\707ccf09022a91d5d241305253ac31ba\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+304            android:name="androidx.startup.InitializationProvider"
+304-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mabed\.gradle\caches\transforms-3\707ccf09022a91d5d241305253ac31ba\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+305            android:authorities="com.taffweed.taffweed.androidx-startup"
+305-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mabed\.gradle\caches\transforms-3\707ccf09022a91d5d241305253ac31ba\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+306            android:exported="false" >
+306-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mabed\.gradle\caches\transforms-3\707ccf09022a91d5d241305253ac31ba\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+307            <meta-data
+307-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mabed\.gradle\caches\transforms-3\707ccf09022a91d5d241305253ac31ba\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+308                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+308-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mabed\.gradle\caches\transforms-3\707ccf09022a91d5d241305253ac31ba\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+309                android:value="androidx.startup" />
+309-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mabed\.gradle\caches\transforms-3\707ccf09022a91d5d241305253ac31ba\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+310            <meta-data
+310-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\mabed\.gradle\caches\transforms-3\c4d481c3191902e7ecb7512519b4c441\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+311                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+311-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\mabed\.gradle\caches\transforms-3\c4d481c3191902e7ecb7512519b4c441\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+312                android:value="androidx.startup" />
+312-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\mabed\.gradle\caches\transforms-3\c4d481c3191902e7ecb7512519b4c441\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+313            <meta-data
+313-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mabed\.gradle\caches\transforms-3\39f6cb342051b9edf28010b55c1ca41d\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+314                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+314-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mabed\.gradle\caches\transforms-3\39f6cb342051b9edf28010b55c1ca41d\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+315                android:value="androidx.startup" />
+315-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mabed\.gradle\caches\transforms-3\39f6cb342051b9edf28010b55c1ca41d\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+316        </provider>
+317
+318        <receiver
+318-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mabed\.gradle\caches\transforms-3\39f6cb342051b9edf28010b55c1ca41d\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+319            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+319-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mabed\.gradle\caches\transforms-3\39f6cb342051b9edf28010b55c1ca41d\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+320            android:directBootAware="false"
+320-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mabed\.gradle\caches\transforms-3\39f6cb342051b9edf28010b55c1ca41d\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+321            android:enabled="true"
+321-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mabed\.gradle\caches\transforms-3\39f6cb342051b9edf28010b55c1ca41d\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+322            android:exported="true"
+322-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mabed\.gradle\caches\transforms-3\39f6cb342051b9edf28010b55c1ca41d\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+323            android:permission="android.permission.DUMP" >
+323-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mabed\.gradle\caches\transforms-3\39f6cb342051b9edf28010b55c1ca41d\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+324            <intent-filter>
+324-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mabed\.gradle\caches\transforms-3\39f6cb342051b9edf28010b55c1ca41d\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+325                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+325-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mabed\.gradle\caches\transforms-3\39f6cb342051b9edf28010b55c1ca41d\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+325-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mabed\.gradle\caches\transforms-3\39f6cb342051b9edf28010b55c1ca41d\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+326            </intent-filter>
+327            <intent-filter>
+327-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mabed\.gradle\caches\transforms-3\39f6cb342051b9edf28010b55c1ca41d\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+328                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+328-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mabed\.gradle\caches\transforms-3\39f6cb342051b9edf28010b55c1ca41d\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+328-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mabed\.gradle\caches\transforms-3\39f6cb342051b9edf28010b55c1ca41d\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+329            </intent-filter>
+330            <intent-filter>
+330-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mabed\.gradle\caches\transforms-3\39f6cb342051b9edf28010b55c1ca41d\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+331                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+331-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mabed\.gradle\caches\transforms-3\39f6cb342051b9edf28010b55c1ca41d\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+331-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mabed\.gradle\caches\transforms-3\39f6cb342051b9edf28010b55c1ca41d\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+332            </intent-filter>
+333            <intent-filter>
+333-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mabed\.gradle\caches\transforms-3\39f6cb342051b9edf28010b55c1ca41d\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+334                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+334-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mabed\.gradle\caches\transforms-3\39f6cb342051b9edf28010b55c1ca41d\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+334-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mabed\.gradle\caches\transforms-3\39f6cb342051b9edf28010b55c1ca41d\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+335            </intent-filter>
+336        </receiver>
+337
+338        <service
+338-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\mabed\.gradle\caches\transforms-3\ceb0a694d4a99da24273e1b13857e2d0\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+339            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+339-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\mabed\.gradle\caches\transforms-3\ceb0a694d4a99da24273e1b13857e2d0\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+340            android:exported="false" >
+340-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\mabed\.gradle\caches\transforms-3\ceb0a694d4a99da24273e1b13857e2d0\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+341            <meta-data
+341-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\mabed\.gradle\caches\transforms-3\ceb0a694d4a99da24273e1b13857e2d0\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+342                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+342-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\mabed\.gradle\caches\transforms-3\ceb0a694d4a99da24273e1b13857e2d0\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+343                android:value="cct" />
+343-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\mabed\.gradle\caches\transforms-3\ceb0a694d4a99da24273e1b13857e2d0\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+344        </service>
+345        <service
+345-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\mabed\.gradle\caches\transforms-3\0cb4f3081341fc9f6d42b71dadc31567\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+346            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+346-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\mabed\.gradle\caches\transforms-3\0cb4f3081341fc9f6d42b71dadc31567\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+347            android:exported="false"
+347-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\mabed\.gradle\caches\transforms-3\0cb4f3081341fc9f6d42b71dadc31567\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+348            android:permission="android.permission.BIND_JOB_SERVICE" >
+348-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\mabed\.gradle\caches\transforms-3\0cb4f3081341fc9f6d42b71dadc31567\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+349        </service>
+350
+351        <receiver
+351-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\mabed\.gradle\caches\transforms-3\0cb4f3081341fc9f6d42b71dadc31567\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+352            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+352-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\mabed\.gradle\caches\transforms-3\0cb4f3081341fc9f6d42b71dadc31567\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+353            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+353-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\mabed\.gradle\caches\transforms-3\0cb4f3081341fc9f6d42b71dadc31567\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+354        <activity
+354-->[com.google.android.play:core-common:2.0.2] C:\Users\mabed\.gradle\caches\transforms-3\73d722895bce2d4b9999f697b9fd1e04\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:14:9-18:65
+355            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+355-->[com.google.android.play:core-common:2.0.2] C:\Users\mabed\.gradle\caches\transforms-3\73d722895bce2d4b9999f697b9fd1e04\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:15:13-93
+356            android:exported="false"
+356-->[com.google.android.play:core-common:2.0.2] C:\Users\mabed\.gradle\caches\transforms-3\73d722895bce2d4b9999f697b9fd1e04\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:16:13-37
+357            android:stateNotNeeded="true"
+357-->[com.google.android.play:core-common:2.0.2] C:\Users\mabed\.gradle\caches\transforms-3\73d722895bce2d4b9999f697b9fd1e04\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:17:13-42
+358            android:theme="@style/Theme.PlayCore.Transparent" />
+358-->[com.google.android.play:core-common:2.0.2] C:\Users\mabed\.gradle\caches\transforms-3\73d722895bce2d4b9999f697b9fd1e04\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:18:13-62
+359    </application>
+360
+361</manifest>

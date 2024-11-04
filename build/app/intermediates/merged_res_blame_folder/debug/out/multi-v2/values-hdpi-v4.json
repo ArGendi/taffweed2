@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.taffweed.taffweed.app-mergeDebugResources-47:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\mabed\\.gradle\\caches\\transforms-3\\cb34052c6bb6a2935fb70d3be14d73e0\\transformed\\appcompat-1.5.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.taffweed.taffweed.app-mergeDebugResources-47:/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\mabed\\.gradle\\caches\\transforms-3\\cb34052c6bb6a2935fb70d3be14d73e0\\transformed\\appcompat-1.5.1\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\mabed\\.gradle\\caches\\transforms-3\\acb5cc19918b4957fd69bfddc22c97cc\\transformed\\material-1.0.0\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "10",
+                        "endOffsets": "222"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "264",
+                        "endLines": "8",
+                        "endColumns": "10",
+                        "endOffsets": "431"
+                    }
+                }
+            ]
+        }
+    ]
+}

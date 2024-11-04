@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.taffweed.taffweed.app-mergeReleaseResources-47:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\mabed\\.gradle\\caches\\transforms-3\\cb34052c6bb6a2935fb70d3be14d73e0\\transformed\\appcompat-1.5.1\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}

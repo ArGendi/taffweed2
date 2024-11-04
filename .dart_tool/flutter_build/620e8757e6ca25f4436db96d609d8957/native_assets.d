@@ -1,0 +1,1 @@
+ D:\\taffweed3\\taffweed\\.dart_tool\\flutter_build\\620e8757e6ca25f4436db96d609d8957\\native_assets.yaml: 

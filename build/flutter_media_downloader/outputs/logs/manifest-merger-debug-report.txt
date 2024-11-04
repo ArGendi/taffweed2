@@ -1,0 +1,47 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml:1:1-17:12
+INJECTED from C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml:1:1-17:12
+INJECTED from C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml:1:1-17:12
+	package
+		ADDED from C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml:2:3-66
+		INJECTED from C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml:3:5-67
+	android:name
+		ADDED from C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml:3:22-64
+application
+ADDED from C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml:4:5-15:19
+provider#androidx.core.content.FileProvider
+ADDED from C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml:5:9-13:20
+	android:grantUriPermissions
+		ADDED from C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml:9:13-47
+	android:authorities
+		ADDED from C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml:7:13-60
+	android:exported
+		ADDED from C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml:8:13-37
+	android:name
+		ADDED from C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml:6:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml:10:13-12:58
+	android:resource
+		ADDED from C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml:12:17-55
+	android:name
+		ADDED from C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml:11:17-67
+uses-sdk
+INJECTED from C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml
+		ADDED from C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml
+		ADDED from C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\mabed\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_media_downloader-1.0.6\android\src\main\AndroidManifest.xml
